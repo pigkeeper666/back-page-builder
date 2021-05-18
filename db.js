@@ -3,10 +3,10 @@ const mysql = require('mysql')
 const db = {}
 
 let pool = mysql.createPool({
-  host: '1.15.135.140',
-  user: 'root',
-  password: 'snwdIphone6',
-  database: 'page_builder'
+  host: '',
+  user: '',
+  password: '',
+  database: ''
 })
 
 db.query = (sql, callback) => {
